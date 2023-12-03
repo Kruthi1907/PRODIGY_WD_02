@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    text-align: center;
+  }
+  
+  .clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #9f9f9fa9;
+    border-radius: 50%;
+    border: 3px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #abababa9;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  #display {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
