@@ -1,5 +1,3 @@
-# PRODIGY_WD_02
-
 # Stopwatch Web Application
 
 This is a simple stopwatch web application built using HTML, CSS, and JavaScript. Users can start, pause, reset the stopwatch, and record lap times. The timer is displayed in a circular design, and buttons have a hover effect for better user interaction.
